@@ -908,7 +908,7 @@ body {
     border-radius: 0px;
     border: none;
     position: relative;
-    height: 500px;
+    /* height: 500px; */
 }
 .mobi {
     display: none !important ;
@@ -919,8 +919,16 @@ body {
     border-radius: 0px;
     position: fixed;
     z-index: 999;
-    width: 107%;
-    top: 653px;
+    width: 103.7%;
+    top: 561px;
+}
+.social {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    font-size: 23px !important;
+    padding: 10px 24px 10px 24px;
+    justify-content: space-between;
 }
 .progress .progress-bar {
     width: 40px;
