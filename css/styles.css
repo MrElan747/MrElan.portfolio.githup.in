@@ -911,7 +911,7 @@ body {
     height: 500px;
 }
 .mobi {
-    display: inline !important ;
+    display: none !important ;
 }
 .footer {
     background-color: #252531;
@@ -920,7 +920,7 @@ body {
     position: fixed;
     z-index: 999;
     width: 107%;
-    top: 750px;
+    top: 653px;
 }
 .progress .progress-bar {
     width: 40px;
