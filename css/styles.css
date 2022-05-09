@@ -920,20 +920,25 @@ body {
     margin-top: 0px;
 }
 .mobi {
-    display: none !important ;
+    display: inline !important ;
+}
+.extra-kwl ul {
+    list-style: none !important;
+    line-height: 3 !important;
 }
 .cv {
-    margin: 1px 0px 15px 27px;
+    margin: -4px 0px 10px 27px;
     font-size: 12px;
 }
 .footer {
     background-color: #252531;
     border: none;
     border-radius: 0px;
-    position: fixed;
-    z-index: 999;
+    /* position: relative; */
+    /* z-index: 999; */
     width: 103.7%;
-    top: 92%;
+    /* top: 92%; */
+    margin-top: 79%;
 }
 .social {
     display: flex;
