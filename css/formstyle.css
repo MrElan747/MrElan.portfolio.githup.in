@@ -1,6 +1,6 @@
 .centered {
     position: absolute;
-    top: 25.3%;
+    top: 21%;
     left: 80%;
     transform: translate(-50%, -50%);
 }
@@ -13,20 +13,34 @@
 .art-lg-text {
     font-size: 18px;
     position: absolute !important;
-    top: 26%;
+    top: 24%;
     left: 16.5%;
     bottom: 8%;
     color: #fff;
 }
 .btn-img {
     position: absolute !important;
-    top: 37%;
+    top: 32%;
     left: 22%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.information {
+    background-color: #252531;
+    color: #ededf0;
+    border-radius: 0px;
+    border: none;
+    position: relative;   
+}
+.personal-information {
+    margin: 15px 0px 0px 0px;
+}
+.personal-information ul {
+    list-style: none;
+    line-height: 2.0;
+}
 .forms{
-    background-color: #20202a;
+    background-color: #252531;
     color: #ededf0;
     border-radius: 0px;
     border: none;
@@ -38,12 +52,12 @@
     padding: 20px;
 }
 .fe-sty input {
-    border: 1px solid #fdba04;
+    border: none;
     background-color: #20202a;
     color: #747373;
 }
 .fe-sty input:focus {
-    border: 1px solid #fdba04;
+    border: none;
     background-color: #20202a;
     outline: none;
     color: #747373;
@@ -58,7 +72,7 @@
 }
 .form-control:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(253 186 4 / 5%);
+    box-shadow: none !important;
 }
 .user {
     padding-left: 38px;
@@ -85,12 +99,12 @@
     background-position: 10px 10px;
 }
 .fe-sty select {
-    border: 1px solid #fdba04;
+    border: none;
     background-color: #20202a;
     color: #747373;
 }
 .fe-sty select:focus {
-    border: 1px solid #fdba04;
+    border: none;
     background-color: #20202a;
     outline: none;
     color: #747373;
@@ -100,6 +114,7 @@
     background-color: #fdba04;
     color: #20202a;
     border: none;
+    border-radius: 0px;
     margin-top: 18px;
     text-align: center;
     padding-top: 0px;
@@ -129,32 +144,72 @@
 
 .title-img {
     position: absolute !important;
-    top: 7.6% !important;
+    top: 5.6% !important;
     left: 34% !important;
     transform: translate(-50%, -50%) !important;
 }
 .art-lg-text {
     font-size: 10px !important;
     position: absolute !important;
-    top: 11.7% !important;
-    left: 11% !important;
+    top: 7.7% !important;
+    left: 10% !important;
     bottom: 8%;
     color: #fff;
 }
 .btn-img {
     position: absolute;
-    top: 17% !important;
-    left: 19% !important;
+    top: 11% !important;
+    left: 18% !important;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 .centered {
     display: inline !important;
     position: absolute;
-    top: 11%;
+    top: 7.5%;
     left: 80%;
     width: 97px;
     transform: translate(-50%, -50%);
+}
+.information {
+    background-color: #252531;
+    color: #ededf0;
+    border-radius: 0px;
+    border: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+.personal-information ul {
+    margin-left: 10px;
+    list-style: none;
+    line-height: 2.0;
+}
+.contry span {
+    margin-left: 101px !important;
+}
+.city span {
+    margin-left: 119px !important;
+}
+.area span {
+    margin-left: 114px !important;
+}
+.emails span {
+    margin-left: 105px !important;
+}
+.telegram span {
+    margin-left: 77px !important;
+}
+.skype span {
+    margin-left: 102px !important;
+}
+.support span {
+    margin-left: 88px !important;
+}
+.office span {
+    margin-left: 100px !important;
+}
+.personal span {
+    margin-left: 83px !important;
 }
 .main-footer {
     margin-top: 20px;
