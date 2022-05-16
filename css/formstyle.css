@@ -1,6 +1,6 @@
 .centered {
     position: absolute;
-    top: 27.7%;
+    top: 25.3%;
     left: 80%;
     transform: translate(-50%, -50%);
 }
@@ -13,14 +13,14 @@
 .art-lg-text {
     font-size: 18px;
     position: absolute !important;
-    top: 27%;
+    top: 26%;
     left: 16.5%;
     bottom: 8%;
     color: #fff;
 }
 .btn-img {
     position: absolute !important;
-    top: 40%;
+    top: 37%;
     left: 22%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -34,52 +34,73 @@
 }
 .form-center {
     /* text-align: center; */
-    margin-left: 80px;
-}
-.fe-sty{
+    /* margin-left: 80px; */
     padding: 20px;
-    display: flex;
-
-}
-.fe-sty label {
-    background-color: #fdba04;
-    width: 50px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
 }
 .fe-sty input {
-    border-left: none;
     border: 1px solid #fdba04;
-    height: 45px;
-    width: 300px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     background-color: #20202a;
+    color: #747373;
 }
 .fe-sty input:focus {
-    border-left: none;
     border: 1px solid #fdba04;
+    background-color: #20202a;
     outline: none;
+    color: #747373;
+}
+.fe-sty label{
+    padding-bottom: 5px;
 }
 .fas {
-       color: #20202a;
+    color: #20202a;
     font-size: 22px;
     padding-top: 20%;
 }
-input[type="file"] {
-    padding-top: 8px;
-    padding-left: 5px;
-    font-size: 15px;
-    color: #8c8c8e;
+.form-control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(253 186 4 / 5%);
+}
+.user {
+    padding-left: 38px;
+    background: url(../images/user-icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 10px 10px;
+}
+  .call {
+    padding-left: 38px;
+    background: url(../images/call-icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 10px 10px;
+}
+  .email {
+    padding-left: 38px;
+    background: url(../images/email-icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 10px 10px;
+}
+.role {
+    padding-left: 38px;
+    background: url(../images/role-icon.png) no-repeat;
+    background-size: 20px;
+    background-position: 10px 10px;
+}
+.fe-sty select {
+    border: 1px solid #fdba04;
+    background-color: #20202a;
+    color: #747373;
+}
+.fe-sty select:focus {
+    border: 1px solid #fdba04;
+    background-color: #20202a;
+    outline: none;
+    color: #747373;
 }
 .btn {
     float: right;
-    margin-right: 120px;
-    margin-bottom: 20px;
     background-color: #fdba04;
     color: #20202a;
     border: none;
+    margin-top: 18px;
     text-align: center;
     padding-top: 0px;
 }
@@ -89,7 +110,7 @@ input[type="file"] {
     border: none;
 }
 .btn-primary:active:focus {
-    box-shadow: 0 0 0 0.25rem rgb(253 186 4 / 50%);
+    box-shadow: 0 0 0 0.25rem rgb(253 186 4 / 10%) !important;
 }
 .main-footer {
     margin-top: 10px;
@@ -98,4 +119,59 @@ input[type="file"] {
     justify-content: space-between;
     align-content: space-between;
     width: 100%;
+}
+
+
+/* mobile style  */
+
+@media only screen and (max-width: 768px)
+{
+
+.title-img {
+    position: absolute !important;
+    top: 7.6% !important;
+    left: 34% !important;
+    transform: translate(-50%, -50%) !important;
+}
+.art-lg-text {
+    font-size: 10px !important;
+    position: absolute !important;
+    top: 11.7% !important;
+    left: 11% !important;
+    bottom: 8%;
+    color: #fff;
+}
+.btn-img {
+    position: absolute;
+    top: 17% !important;
+    left: 19% !important;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.centered {
+    display: inline !important;
+    position: absolute;
+    top: 11%;
+    left: 80%;
+    width: 97px;
+    transform: translate(-50%, -50%);
+}
+.main-footer {
+    margin-top: 20px;
+    background-color: #252531;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.main-footer .foot-menu-1 {
+    padding: 4.5% 0% 0% 2%;
+    font-size: 13px;
+}
+.main-footer .foot-menu-2 {
+    padding: 4.5% 2% 0% 0%;
+    font-size: 13px;
+}
+
 }

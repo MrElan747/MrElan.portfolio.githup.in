@@ -18,7 +18,7 @@
 				<a href="javascript:void(0)" class="mobi-nav"><i class="fa fa-ellipsis-v"></i></a>
 			</div>
 			<div class="mobi-menu-2">
-				<a href="#"><i class="fa fa-bars"></i></a>
+				<a href="javascript:void(0)"><i class="fa fa-bars"></i></a>
 			</div>
 		</div>
 		<div class="container-fluid">
@@ -184,27 +184,40 @@
 							<div class="card forms">
 								<div class="form-center">
 									<form>
-										<div style="display:flex;">
-											<div class="fe-sty">
-												<label for="name"><i class="fa fa-user fas"></i></span></label>
-												<input type="text" name="name" id="name" placeholder="Enter Your Name">
+										<div class="row fe-sty">
+											<div class="col-sm-6">
+												<div class="form-group">
+													<label for="name">Name</label>
+													<input type="text" class="form-control user" name="name" id="name" placeholder="Enter Your Name" autocomplete="off" required>
+												</div><br>
+												<div class="form-group">
+													<label for="name">Email</label>
+													<input type="email" class="form-control email" name="email" id="email" placeholder="Enter Your Email" autocomplete="off" required>
+												</div><br>
+												<div class="form-group">
+													<label for="role">Role</label>
+													<select name="role" id="role" class="form-control role" required>
+														<option value="">--Select--</option>
+														<option value="Front-end">Front-end Development</option>
+														<option value="UI/UX">UI/UX Development</option>
+														<option value="Back-end">Back-end Development</option>
+														<option value="Logo">Logo Design</option>
+														<option value="Wordpress">Wordpress</option>
+													</select>
+												</div><br>
 											</div>
-											<div class="fe-sty">
-												<label for="email"><i class="fa fa-envelope fas"></i></span></label>
-												<input type="email" name="email" id="email" placeholder="Enter Your Email">
+											<div class="col-sm-6">
+												<div class="form-group">
+													<label for="phone">Phone No</label>
+													<input type="mobile" class="form-control call" name="phone" id="phone" placeholder="Enter Your Phone No" autocomplete="off" required>
+												</div><br>
+												<div class="form-group">
+													<label for="file">Details Attached</label>
+													<input type="file" class="form-control" name="file" id="file" required>
+												</div><br>
+												<button type="submit" class="btn btn-primary"><i class="fa fa-send-o fas" style="font-size: 18px; text-align: center;"></i>&nbsp;Send</button>
 											</div>
-										</div>
-										<div style="display:flex;">
-											<div class="fe-sty">
-												<label for="mobile"><i class="fa fa-phone fas"></i></span></label>
-												<input type="text" name="mobile" id="mobile" placeholder="Enter Your Mobile Number">
-											</div>
-											<div class="fe-sty">
-												<label for="atta"><i class="fa fa-paperclip fas"></i></span></label>
-												<input type="file" name="atta" id="atta">
-											</div>
-										</div>
-										<button type="submit" class="btn btn-primary"><i class="fa fa-send-o fas" style="font-size: 18px; text-align: center;"></i>&nbsp;Send</button>
+										</div><br>
 									</form>
 								</div>
 							</div>
@@ -220,10 +233,10 @@
 						<div class="menus">
 							<div class="right-menu">
 								<div class="card menu-btn">
-									<a href="#"><i class="fa fa-bars"></i></a>
+									<a href="index.html"><i class="fa fa-bars"></i></a>
 								</div>
 								<div class="card menu-name">
-									<a href="">ORDER</a>
+									<a href="javascript:void(0)">ORDER</a>
 								</div>
 								<div class="card menu-end">
 									<div>
