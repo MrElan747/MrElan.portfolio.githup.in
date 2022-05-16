@@ -1,26 +1,26 @@
 .centered {
     position: absolute;
-    top: 21%;
+    top: 22%;
     left: 80%;
     transform: translate(-50%, -50%);
 }
 .title-img {
     position: absolute;
-    top: 18%;
+    top: 13%;
     left: 36%;
     transform: translate(-50%, -50%);
 }
 .art-lg-text {
     font-size: 18px;
     position: absolute !important;
-    top: 24%;
+    top: 20%;
     left: 16.5%;
     bottom: 8%;
     color: #fff;
 }
 .btn-img {
     position: absolute !important;
-    top: 32%;
+    top: 28%;
     left: 22%;
     transform: translate(-50%, -50%);
     text-align: center;
