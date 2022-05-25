@@ -87,6 +87,7 @@ button_logo.addEventListener("click", () => {
 
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
+    contact.classList.remove("main-swap");
     home_name.classList.add("contact-name-hide");
     contact_name.classList.add("contact-name-view");
 });
