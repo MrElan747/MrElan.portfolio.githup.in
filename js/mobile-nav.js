@@ -61,6 +61,8 @@ button_front.addEventListener("click", () => {
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
     contact.classList.remove("main-swap");
+    home_name.classList.add("contact-name-hide");
+    contact_name.classList.add("contact-name-view");
 });
 
 button_ui.addEventListener("click", () => {
@@ -68,6 +70,8 @@ button_ui.addEventListener("click", () => {
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
     contact.classList.remove("main-swap");
+    home_name.classList.add("contact-name-hide");
+    contact_name.classList.add("contact-name-view");
 });
 
 button_back.addEventListener("click", () => {
@@ -75,12 +79,16 @@ button_back.addEventListener("click", () => {
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
     contact.classList.remove("main-swap");
+    home_name.classList.add("contact-name-hide");
+    contact_name.classList.add("contact-name-view");
 });
 
 button_logo.addEventListener("click", () => {
 
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
+    home_name.classList.add("contact-name-hide");
+    contact_name.classList.add("contact-name-view");
 });
 
 button_word.addEventListener("click", () => {
@@ -88,6 +96,8 @@ button_word.addEventListener("click", () => {
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
     contact.classList.remove("main-swap");
+    home_name.classList.add("contact-name-hide");
+    contact_name.classList.add("contact-name-view");
 });
 
 main_home_button.addEventListener("click", () => {
