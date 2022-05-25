@@ -60,18 +60,21 @@ button_front.addEventListener("click", () => {
 
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
+    contact.classList.remove("main-swap");
 });
 
 button_ui.addEventListener("click", () => {
 
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
+    contact.classList.remove("main-swap");
 });
 
 button_back.addEventListener("click", () => {
 
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
+    contact.classList.remove("main-swap");
 });
 
 button_logo.addEventListener("click", () => {
@@ -84,6 +87,7 @@ button_word.addEventListener("click", () => {
 
     home.classList.toggle("home-hide");
     contact.classList.toggle("contact-view");
+    contact.classList.remove("main-swap");
 });
 
 main_home_button.addEventListener("click", () => {
