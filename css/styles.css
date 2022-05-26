@@ -494,7 +494,7 @@ h6 {
 }
 .main-right-display {
     display: inline-block !important;
-    background-color: #252531;
+    background-color: #20202a;
     position: fixed !important;
     width: 20%;
     top: 2%;
@@ -507,18 +507,55 @@ h6 {
 .main-nav-list ul{
     list-style: none;
     line-height: 3;
-    margin: 20px;
+    margin-top: 20px;
+    padding: 0px !important;
     font-weight: 600;
 }
-.main-nav-list ul li a {
+.main-nav-list a {
     text-decoration: none;
+    color: white;
+    margin:30px;
+}
+.main-nav-list li:hover {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+}
+.main-nav-list li:active {
+    text-decoration: none;
+    background-color: #333;
     color: white;
 }
 .mobi-menu-4 {
-    padding: 4% 0% 1.5% 4.5% !important;
+    background-color: #252531;
+    color: white;
+    border-radius: 2px 0px 0px 0px;
+    border: none;
+    height: 70px;
+    padding: 8% 0% 8.5% 6.5% !important;
 }
 .mobi-menu-4 a {
     color: white;
+}
+.main-menu-end {
+    background-color: #252531;
+    border-radius: 2px 0px 0px 0px;
+    border: none;
+    position: fixed;
+    height: 70px;
+    z-index: 999;
+    top: 88.8%;
+    width: 20%;
+}
+.main-menu-end div{
+    background-color: #fdba04;
+    border-radius: 50%;
+    color: black;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    margin-top: 24px;
+    margin-left: 20px;
 }
 .main-swap {
     width: 71%;
@@ -551,20 +588,20 @@ h6 {
 }
 .centered {
   position: absolute;
-  top: 12.4%;
+  top: 9%;
   left: 80%;
   transform: translate(-50%, -50%);
 }
 .title-img {
     position: absolute;
-    top: 10%;
+    top: 6.9%;
     left: 36%;
     transform: translate(-50%, -50%);
 }
 .art-lg-text {
     font-size: 18px;
     position: absolute;
-    top: 14%;
+    top: 9.9%;
     left: 16.5%;
     bottom: 8%;
     color:#fff;
@@ -576,7 +613,7 @@ h6 {
     margin-bottom: 25px; }
 .btn-img {
     position: absolute;
-    top: 19%;
+    top: 13.6%;
     left: 22%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -1242,7 +1279,7 @@ body {
 .centered {
     display: inline !important;
     position: absolute !important;
-    top: 2.8% !important;
+    top: 2.3% !important;
     left: 84% !important;
     width: 97px;
     transform: translate(-50%, -50%) !important;
@@ -1373,10 +1410,8 @@ body {
     color: white;
     border: none;
     border-radius: 0px;
-    margin-bottom: 4%;
 }
 .recom {
-    display: none;
     padding: 0%;
 }
 .main-footer {
