@@ -500,7 +500,6 @@ h6 {
     top: 2%;
     right: 0.7%;
     color: white;
-    /* transition: 3.5s; */
     height: 100%;
     z-index: 1001;
 }
@@ -518,12 +517,12 @@ h6 {
 }
 .main-nav-list li:hover {
     text-decoration: none;
-    background-color: #333;
+    background-color: #252531;
     color: white;
 }
 .main-nav-list li:active {
     text-decoration: none;
-    background-color: #333;
+    background-color: #252531;
     color: white;
 }
 .mobi-menu-4 {
@@ -946,20 +945,20 @@ transform: translateX(-5px);
 }
 .centered1 {
     position: absolute;
-    top: 23.4%;
+    top: 21.3%;
     left: 80%;
     transform: translate(-50%, -50%);
 }
 .title-img1 {
     position: absolute;
-    top: 19%;
+    top: 16%;
     left: 36%;
     transform: translate(-50%, -50%);
 }
 .art-lg-text1 {
     font-size: 18px;
     position: absolute;
-    top: 26%;
+    top: 23%;
     left: 16.5%;
     bottom: 8%;
     color:#fff;
@@ -969,7 +968,7 @@ transform: translateX(-5px);
 }
 .btn-img1 {
     position: absolute;
-    top: 36%;
+    top: 32%;
     left: 22%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -1259,6 +1258,7 @@ body {
 .nav-list ul li a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
 }
 .mobi-menu-5 {
     padding: 4% 0% 1.5% 4.5% !important;

@@ -143,7 +143,7 @@ var button_menu = document.querySelector('.lab-menu');
 
 button_menu.addEventListener("click", () => {
 
-    main_menus.classList.toggle("main-right-display");
+    main_menus.classList.add("main-right-display");
     home.classList.toggle("main-swap");
     contact.classList.toggle("main-swap");
 
