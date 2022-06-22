@@ -1,18 +1,18 @@
 
 var button = document.querySelector('.mobi-nav');
 var button1 = document.querySelector('.mobi-nav1');
-var profile = document.querySelector('.c');
+var c = document.querySelector('.c');
 var align = document.querySelector('.test');
 
 button.addEventListener("click", () => {
 
-    profile.classList.toggle("display");
+    c.classList.toggle("display");
     menus.classList.remove("right-display");
 });
 
 button1.addEventListener("click", () => {
 
-    profile.classList.toggle("display");
+    c.classList.toggle("display");
 
 });
 
@@ -25,7 +25,7 @@ var menus = document.querySelector('.right-nav');
 button2.addEventListener("click", () => {
 
     menus.classList.toggle("right-display");
-    profile.classList.remove("display");
+    c.classList.remove("display");
 });
 
 button3.addEventListener("click", () => {

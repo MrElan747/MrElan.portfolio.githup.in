@@ -466,26 +466,74 @@ h6 {
 .contact-name-view {
     display: inline-block !important;
 }
-.menu-end{
+.menu-end {
     background-color: #252531;
     border-radius: 2px 0px 0px 0px;
     border: none;
     position: fixed;
-    height: 70px;
+    height: 100px;
     z-index: 999;
-    top: 88.8%;
+    top: 84.8%;
     width: 5%;
 }
-.menu-end div{
+.menu-end .lang{
     background-color: #fdba04;
     border-radius: 50%;
     color: black;
     width: 30px;
     text-align: center;
     height: 30px;
-    margin-top: 24px;
+    margin-top: 18px;
     margin-left: 20px;
 }
+
+.menu-end .theme {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.theme a {
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.menu-end .theme a:hover {
+    color: black;
+}
+
+.dark-mode {
+    display: none;
+}
+.menu-end .theme .dark-mode i {
+    background-color: #fdba04;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 6px;
+    font-size: 24px;
+}
+
+.menu-end .theme a i {
+    background-color: #fdba04;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 8px;
+    font-size: 24px;
+}
+
+.display-option {
+    display: inline-block !important;
+}
+
+.hide-option {
+    display: none !important;
+}
+
 .right-nav {
     display: none;
 }  
@@ -546,16 +594,51 @@ h6 {
     top: 88.8%;
     width: 20%;
 }
-.main-menu-end div{
+
+.main-menu-option {
+    display: flex;
+    margin: 25px 20px;
+}
+
+.main-menu-option .lang{
     background-color: #fdba04;
     border-radius: 50%;
+    display: inline-block;
     color: black;
     width: 30px;
     text-align: center;
     height: 30px;
-    margin-top: 24px;
+}
+
+.main-menu-option .theme {
+    display: inline-block;
     margin-left: 20px;
 }
+
+.main-menu-option .theme a:hover {
+    color: black;
+}
+
+.main-menu-option .theme .dark-mode i {
+    background-color: #fdba04;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 6px;
+    font-size: 24px;
+}
+
+.main-menu-option .theme a i {
+    background-color: #fdba04;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 8px;
+    font-size: 24px;
+}
+
 .main-swap {
     width: 71%;
     z-index: 999;
@@ -578,6 +661,7 @@ h6 {
 .home-hide {
     display: none !important;
 }
+
 .image-section {
     position: relative;
     text-align: center;
@@ -1158,7 +1242,7 @@ body {
     overflow: hidden;
     position: fixed;
     height: 100%;
-    top: 3px;
+    top: 0px;
 }
 .over {
     overflow: hidden;
