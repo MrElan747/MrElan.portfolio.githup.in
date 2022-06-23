@@ -447,5 +447,14 @@
     border: var(--border);
     border-radius: 0px;
 }
+.light-main-details .information .emails span {
+    margin-left: 109px !important;
+}
+.light-main-details .information .telegram span {
+    margin-left: 82px !important;
+}
+.light-main-details .information .skype span {
+    margin-left: 106px !important;
+}
  
 }

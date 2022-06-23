@@ -1351,7 +1351,7 @@ body {
 }
 .nav-end-option {
     display: flex;
-    margin: 25px 20px;
+    margin: 20px 20px;
 }
 .nav-end-option .lang{
     background-color: #fdba04;
