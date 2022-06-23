@@ -10,7 +10,7 @@ btn.addEventListener( 'click', function(e) {
     var body = 'Name: ' + name + '<br/> Email: ' + email + '<br/> Role: ' + role + '<br/> Mobile No: ' + phone + '<br/> Documents: ' + file;
 
 
-    Email.send({
+    email.send({
         Host : "smtp.gmail.com",
         Username : "mrelan.official@gmail.com",
         Password : "hybhiwubjwdyrsfw",

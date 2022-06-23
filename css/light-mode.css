@@ -341,9 +341,75 @@
     border: var(--border);
     border-radius: 0px;
 }
+.light-main-details .information {
+    background-color: var(--secondary-color);
+    border: var(--border);
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+
+}
+.light-main-details .personal-information ul {
+    padding-left: 1rem;
+}
+.light-main-details .information .emails span {
+    margin-left: 43px !important;
+}
+.light-main-details .information .telegram span {
+    margin-left: 15px !important;
+}
+.light-main-details .information .skype span {
+    margin-left: 42px !important;
+}
+.light-forms {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+    border: var(--border);
+}
+.light-forms .fe-sty input {
+    background-color: rgb(173, 172, 172);
+    color: var(--text-color);
+}
+.light-forms .fe-sty input:focus {
+    background-color: rgb(173, 172, 172);
+    color: var(--text-color);
+}
+.light-forms .fe-sty [type=file] {
+    color: #747373;
+}
+.light-forms .fe-sty [type=file]:focus {
+    color: var(--text-color);
+}
+.light-forms .fe-sty select {
+    background-color: rgb(173, 172, 172);
+    color: var(--text-color);
+}
+.light-forms .fe-sty select:focus {
+    background-color: rgb(173, 172, 172);
+    color: var(--text-color);
+}
+.light-forms .fass {
+    color: var(--text-color);
+}
+.light-add {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: 500;
+    border: var(--border);
+}
+.light-sub-class {
+    color: var(--text-color);
+    background-color:#6a6565 !important;
+}
+.light-sub-class .centered1 {
+    top: 21.1%;
+}
 
 @media only screen and (max-width: 768px) { 
 
+.light-main-right-nav {
+    display: none;
+}
 .light-mobi-head {
     background-color: var(--primary-color);
 }
@@ -360,5 +426,26 @@
 .light-main-content .centered {
     top: 2.54% !important;
 }
-
+.light-right-nav {
+    background-color: var(--secondary-color);
+}
+.light-right-nav .mobi-menu-4 {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.light-right-nav .mobi-menu-4 a {
+    color: var(--text-color);
+}
+.light-right-nav .nav-list a {
+    color: var(--text-color) !important;
+}
+.light-right-nav .nav-list li:hover {
+    background-color: var(--primary-color);
+}
+.light-right-nav .nav-end {
+    background-color: var(--primary-color);
+    border: var(--border);
+    border-radius: 0px;
+}
+ 
 }

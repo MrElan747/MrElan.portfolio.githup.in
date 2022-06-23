@@ -498,11 +498,10 @@ h6 {
     width: 30px;
     height: 30px;
 }
-
 .menu-end .theme a:hover {
     color: black;
+    cursor: pointer;
 }
-
 .dark-mode {
     display: none;
 }
@@ -515,7 +514,6 @@ h6 {
     padding: 3px 6px;
     font-size: 24px;
 }
-
 .menu-end .theme a i {
     background-color: #fdba04;
     color: black;
@@ -525,7 +523,6 @@ h6 {
     padding: 3px 8px;
     font-size: 24px;
 }
-
 .display-option {
     display: inline-block !important;
 }
@@ -594,12 +591,10 @@ h6 {
     top: 88.8%;
     width: 20%;
 }
-
 .main-menu-option {
     display: flex;
     margin: 25px 20px;
 }
-
 .main-menu-option .lang{
     background-color: #fdba04;
     border-radius: 50%;
@@ -609,17 +604,18 @@ h6 {
     text-align: center;
     height: 30px;
 }
-
 .main-menu-option .theme {
     display: inline-block;
     margin-left: 20px;
 }
-
 .main-menu-option .theme a:hover {
     color: black;
+    cursor: pointer;
 }
-
-.main-menu-option .theme .dark-mode i {
+.main-dark-mode {
+    display: none;
+}
+.main-menu-option .theme .main-dark-mode i {
     background-color: #fdba04;
     color: black;
     border-radius: 50%;
@@ -628,7 +624,6 @@ h6 {
     padding: 3px 6px;
     font-size: 24px;
 }
-
 .main-menu-option .theme a i {
     background-color: #fdba04;
     color: black;
@@ -638,7 +633,6 @@ h6 {
     padding: 3px 8px;
     font-size: 24px;
 }
-
 .main-swap {
     width: 71%;
     z-index: 999;
@@ -1223,10 +1217,11 @@ body {
     margin-top: 7px;
 }
 .c {
-    display: inline !important;
+    display: inline-block !important;
     width: 67%;
     background: #333;
     left: 0%;
+    top: 0px !important;
     transition: 0.5s;
     z-index: 1000;
     transform: translate(-100%);
@@ -1343,6 +1338,58 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 600;
+}
+.nav-end {
+    background-color: #252531;
+    border-radius: 2px 0px 0px 0px;
+    border: none;
+    position: fixed;
+    height: 70px;
+    z-index: 999;
+    top: 91.8%;
+    width: 100%;
+}
+.nav-end-option {
+    display: flex;
+    margin: 25px 20px;
+}
+.nav-end-option .lang{
+    background-color: #fdba04;
+    border-radius: 50%;
+    display: inline-block;
+    color: black;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+}
+.nav-end-option .theme {
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-end-option .theme a:hover {
+    color: black;
+    cursor: pointer;
+}
+.mobi-dark-mode {
+    display: none;
+}
+.nav-end-option .theme .mobi-dark-mode i {
+    background-color: #fdba04;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 6px;
+    font-size: 24px;
+}
+.nav-end-option .theme a i {
+    background-color: #fdba04;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 8px;
+    font-size: 24px;
 }
 .mobi-menu-5 {
     padding: 4% 0% 1.5% 4.5% !important;
