@@ -5,21 +5,16 @@
     --border: 1px solid rgba(0,0,0,.125);
     --font-weight : 600;
 }
-
-
 .light-profile {
     background-color: var(--primary-color);
     color:var(--text-color);
     border-radius: 0px;
     border: var(--border);
-    font-weight: var(--font-weight);
-    
+    font-weight: var(--font-weight);   
 }
-
 .light-profile h4 {
     color: var(--text-color) !important;
 }
-
 .light-details {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -28,7 +23,6 @@
     border-right: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-details .progress:after {
     content: "";
     width: 100%;
@@ -39,7 +33,6 @@
     top: 0;
     left: 0
 }
-
 .light-details .progress .progress-value {
     width: 90%;
     height: 90%;
@@ -53,143 +46,115 @@
     top: 5%;
     left: 5%;
 }
-
 .light-details .cv a:hover {
     color: var(--text-color);
 }
-
 .light-footer {
     background-color: var(--primary-color);
     color: var(--text-color);
     border: 1px solid rgba(0,0,0,.125);
 }
-
 .light-footer .social a:hover {
     color: var(--text-color);
 }
-
 .light-menu-btn {
     background-color: var(--primary-color);
     border-radius: 0px;
     border: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-menu-btn a:hover {
     color: var(--text-color);
 }
-
 .light-menu-name {
     background-color: var(--secondary-color);
     border-right: var(--border);
     border-left: var(--border);
 }
-
 .light-menu-name a:hover {
     color: var(--text-color);
 }
-
 .light-menu-end {
     background-color: var(--primary-color);
     border-radius: 0px;
     border: var(--border);
 }
-
 .light-main-right-display {
     background-color: var(--primary-color);
     color: var(--text-color);
 }
-
 .light-title-img h2{
     color: var(--text-color) !important;
 }
-
 .light-sec-1 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-sec-1 .progress1 {
     background-color: rgb(173, 172, 172);
 }
-
 .light-sec-2 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-sec-2 p {
     font-weight: 300;
 }
-
 .light-sec-2 a {
     font-weight: var(--font-weight);
 }
-
 .light-sec-3 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-sec-3 p {
     font-weight: 300;
 }
-
 .light-sec-3 a {
     font-weight: var(--font-weight);
 }
-
 .light-sec-4 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-sec-4 p {
     font-weight: 300;
 }
-
 .light-sec-4 a {
     font-weight: var(--font-weight);
 }
-
 .light-sec-5 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-sec-5 p {
     font-weight: 300;
 }
-
 .light-sec-5 a {
     font-weight: var(--font-weight);
 }
-
 .light-sec-6 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
     font-weight: var(--font-weight);
 }
-
 .light-sec-6 p {
     font-weight: 300;
 }
-
 .light-sec-6 a {
     font-weight: var(--font-weight);
 }
-
 .light-sec-7 {
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -200,80 +165,63 @@
 .light-sec-7 p {
     font-weight: 300;
 }
-
 .light-sec-7 a {
     font-weight: var(--font-weight);
 }
-
 .light-price-sec-1 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
 }
-
 .light-price-sec-1 h5 {
     color: var(--text-color);
 }
-
 .light-price-sec-1 .features ul li {
     font-weight: 500;
 }
-
 .light-price-sec-1 .art-asterisk {
     color: var(--text-color);
     font-weight: var(--font-weight);
 }
-
 .light-price-sec-2 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
 }
-
 .light-price-sec-2 h5 {
     color: var(--text-color);
 }
-
 .light-price-sec-2 .art-price-cost .art-number span {
     color: var(--text-color);
     font-weight: var(--font-weight);
 }
-
 .light-price-sec-2 .features ul li {
     font-weight: 500;
 }
-
 .light-price-sec-3 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--border);
 }
-
 .light-price-sec-3 h5 {
     color: var(--text-color);
 }
-
 .light-price-sec-3 .art-price-cost .art-number span {
     color: var(--text-color);
     font-weight: var(--font-weight);
 }
-
 .light-price-sec-3 .features ul li {
     font-weight: 500;
 }
-
 .light-recom .shadow-effect {
     background-color: var(--secondary-color) !important;
 }
-
 .light-recom h5 {
     color: var(--text-color) !important;
 }
-
 .light-recom #customers-testimonials .shadow-effect p {
     font-weight: 300;
 }
-
 .light-recom #customers-testimonials.owl-carousel .owl-dots .owl-dot span {
     background: gray;
     display: inline-block;
@@ -284,13 +232,11 @@
     width: 40px;
     border-radius: 20px;
 }
-
 .light-recom  #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
     #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
     background: #fdba04;
     transform: translate3d(0px, -50%, 0px) scale(0.5);
 }
-
 .light-main-footer {
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -306,36 +252,28 @@
     color: var(--text-color);
     background-color:#6a6565;
 }
-
 .light-main-content .centered {
     top: 9.55%;
 }
-
 .light-test h6 {
     color: var(--text-color) !important;
 }
-
 .light-main-right-nav {
     background-color: var(--secondary-color) !important;
 }
-
 .light-main-right-nav .mobi-menu-4 {
     background-color: var(--primary-color);
     border: var(--border);
 }
-
 .light-main-right-nav .mobi-menu-4 a {
     color: var(--text-color);
 }
-
 .light-main-right-nav .main-nav-list a {
     color: var(--text-color) !important;
 }
-
 .light-main-right-nav .main-nav-list li:hover {
     background-color: var(--primary-color);
 }
-
 .light-main-right-nav .main-menu-end {
     background-color: var(--primary-color);
     border: var(--border);
@@ -413,16 +351,13 @@
 .light-mobi-head {
     background-color: var(--primary-color);
 }
-
 .light-mobi-head a {
     color: var(--text-color) !important;
 }
-
 .light-profile .mobi-menu-3 a {
     color: var(--text-color) !important;
 
 }
-
 .light-main-content .centered {
     top: 2.54% !important;
 }
@@ -456,5 +391,5 @@
 .light-main-details .information .skype span {
     margin-left: 106px !important;
 }
- 
+
 }
